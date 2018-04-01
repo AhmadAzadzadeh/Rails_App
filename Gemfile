@@ -10,6 +10,9 @@ end
 gem 'rails', '~> 5.1.5'
 gem 'bootstrap-sass', '3.3.7'
 gem 'jquery'
+gem 'faker'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 gem 'rails-controller-testing'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'

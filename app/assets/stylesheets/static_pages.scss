@@ -40,6 +40,20 @@ input {
     }
 }
 
+.checkbox {
+  margin-top: -10px;
+  margin-bottom: 10px;
+  span {
+    margin-left: 20px;
+    font-weight: normal;
+  }
+}
+
+#session_remember_me {
+  width: auto;
+  margin-left: 0;
+}
+
 // sidebar
 aside {
     section.user_info {
@@ -109,30 +123,30 @@ footer {
     border-top: 1px solid #eaeaea;
     color: #777;
   }
-  
+
   footer a {
     color: #555;
   }
-  
+
   footer a:hover {
     color: #222;
   }
-  
+
   footer small {
     float: left;
   }
-  
+
   footer ul {
     float: right;
     list-style: none;
   }
-  
+
   footer ul li {
     float: left;
     margin-left: 15px;
   }
 
-/* universal */ 
+/* universal */
 body {
     padding-top: 60px;
 }
@@ -176,4 +190,15 @@ textarea {
 
 h1 {
     margin-bottom: 10px;
+}
+
+// Users index
+.users {
+    list-style: none;
+    margin: 0;
+    li {
+        overflow: auto;
+        padding: 10px 0px;
+        border-bottom: 1px solid $gray-lighter;
+    }
 }
